@@ -7,10 +7,10 @@ from kafka import KafkaProducer
 
 producer = KafkaProducer(bootstrap_servers='localhost:9092') #Same port as your Kafka server
 
-consumer_key = "rmnasy5nr7P7S8GtJxYocoJYn"
-consumer_secret = "kV5jptHKrDFJxQ1VRZZUuhS8sxFW9UB3XYAwmGRvwr4Kwkfjij"
-access_token = "1395765903841693697-yHU7y2XJgQ3myFMoQTPBnK0DqSULNG"
-access_token_secret = "WK6KqKd4Tm4VYuNhy6orkNTvwOjgS1UD6cSy8Jz9UMxzP"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 
 topic_name = "firsttopic"
